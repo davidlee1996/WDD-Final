@@ -1,0 +1,164 @@
+.body {
+    font-family:'Open Sans', sans-serif;
+    background-color: #D0D0D0;
+}
+
+.titlebar {
+    position: relative;
+    width: 100%;
+    height: 15%;
+    background-color: #D0D0D0;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#emblem {
+    width: auto;
+    height: 100%;
+    position: relative;
+    float: left;
+    padding-left: 20px;
+}
+
+#title{
+    float: left;
+    top: 50%;
+    transform: translate(0, -50%);
+    position: absolute;
+    padding-left: 20px; 
+}
+
+#official{
+    color: white;
+    font-size: 30px;
+}
+
+#name{
+    color: black;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+#bible{
+    float: right;
+    padding-right: 20px;
+}
+
+#verse{
+    text-align: right;
+}
+
+#ref{
+    text-align: right;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.navbar {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    z-index: 1;
+    background: rgb(255, 230, 0);
+}
+
+.navbar > span{
+    top:50%;
+    transform: translate(0, -50%);
+    position: absolute;
+}
+
+.navbar > span > a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.navbar > span > a:hover{
+    color: black;
+}
+
+.wrapper {
+    margin-left: 400px;
+    margin-right: 400px;
+    max-width: 100%;
+    min-width: 960px;
+    background-color: #D0D0D0;
+}
+
+.games {
+    width: 100%;
+    padding-top: 20px;
+}
+
+#heading{
+    float: left;
+    font-weight: 800;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.fixtures{
+    width: 100%;
+}
+
+#odd{
+    background-color: #989898 ;
+}
+
+#even{
+    background-color: #A8A8A8;
+}
+
+#result{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+#fixture-date {
+   padding: 10px;
+   color: black; 
+}
+
+#home{
+    color: black;
+    padding: 10px;
+}
+
+#place{
+    color: white;
+    padding: 10px;
+}
+
+#opponent a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    font-size: 30px;
+    padding: 10px;
+}
+
+#opponent a:hover{
+    color: rgb(255, 230, 0);
+}
+
+#score{
+    padding: 10px;
+    text-align: center;
+}
+
+#score span{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+#us{
+    color: rgb(255, 230, 0);
+}
+
+
+

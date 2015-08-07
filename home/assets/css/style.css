@@ -1,0 +1,217 @@
+.body {
+    font-family:'Open Sans', sans-serif;
+    background-color: #D0D0D0;
+}
+
+.titlebar {
+    position: relative;
+    width: 100%;
+    height: 15%;
+    background-color: #D0D0D0;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#emblem {
+    width: auto;
+    height: 100%;
+    position: relative;
+    float: left;
+    padding-left: 20px;
+}
+
+#title{
+    float: left;
+    top: 50%;
+    transform: translate(0, -50%);
+    position: absolute;
+    padding-left: 20px; 
+}
+
+#official{
+    color: white;
+    font-size: 30px;
+}
+
+#name{
+    color: black;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+#bible{
+    float: right;
+    padding-right: 20px;
+}
+
+#verse{
+    text-align: right;
+}
+
+#ref{
+    text-align: right;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.navbar {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    z-index: 1;
+    background: rgb(255, 230, 0);
+}
+
+.navbar > span{
+    top:50%;
+    transform: translate(0, -50%);
+    position: absolute;
+}
+
+.navbar > span > a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.navbar > span > a:hover{
+    color: black;
+}
+
+.wrapper {
+    margin-left: 400px;
+    margin-right: 400px;
+    max-width: 100%;
+    min-width: 960px;
+    height: 100%;
+    background-color: #D0D0D0;
+}
+
+.news{
+    width: 100%;
+    height: 45%;
+    padding-top: 20px;
+}
+
+#image {
+    width: 65%;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px; 
+}
+
+#content{
+    float: right;
+    width: 35%;
+    height: 100%;
+    background-color: rgb(255, 230, 0);
+    border-radius: 0px 20px 20px 0px;
+}
+
+#content p{
+    padding: 20px;
+}
+
+#content_title{
+    font-weight: 700;
+    font-size: 40px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.stuff2{
+    width: 100%;
+    background-color:#D0D0D0; 
+    padding-top: 20px;
+}
+
+#stats{
+    width: 65%;
+    float: left;
+}
+
+#banner{
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    padding-bottom: 20px;
+}
+
+.title{
+    font-weight: 900;
+    color: black;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: rgb(255, 230, 0);
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+#contain{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+#statistics{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+#statistics th{
+    text-align: center;
+    background-color: rgb(255, 230, 0);
+    color:black;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+#statistics td{
+    text-align: center;
+    background-color: #C8C8C8;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#standings{
+    width: 35%;
+    float: right;
+}
+
+#rankings{
+    width: 90%;
+    padding-left: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+#rankings th{
+    text-align: left;
+    background-color: rgb(255, 230, 0);
+    color: black;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+#rankings td{
+    text-align: left;
+    background-color: #C8C8C8;
+    border: 1px solid black;
+    padding:5px;
+}
+
